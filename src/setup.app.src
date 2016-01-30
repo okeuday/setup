@@ -17,12 +17,11 @@
 {application, setup,
  [
   {description, "Generic setup application for Erlang-based systems"},
-  {vsn, git},
+  {vsn, "1.4"},
   {registered, []},
   {applications, [
                   kernel,
                   stdlib
                  ]},
-  {mod, { setup, []}},
   {env, []}
  ]}.
